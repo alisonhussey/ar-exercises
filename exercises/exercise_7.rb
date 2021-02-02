@@ -10,3 +10,11 @@ puts "Exercise 7"
 puts "----------"
 
 # Your code goes here ...
+
+puts "What should our new store name be?"
+puts ">"
+new_store_name = $stdin.gets.chomp
+
+store = Store.create(name: new_store_name)
+
+puts "Error: #{store.errors.full_messages}"

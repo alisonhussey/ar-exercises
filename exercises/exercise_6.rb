@@ -21,3 +21,4 @@ puts "----------"
 @store2.employees.create(first_name: "Bernard", last_name: "Lemoyne", hourly_rate: 80)
 @store2.employees.create(first_name: "Corey", last_name: "Fortier", hourly_rate: 90)
 
+
